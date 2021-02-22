@@ -1,5 +1,5 @@
 ## Coding Problems
 
-- Reverse String uing recursion
+- Reverse String using recursion
 - All possible way to Write the String
 - Binary Search using recursion
