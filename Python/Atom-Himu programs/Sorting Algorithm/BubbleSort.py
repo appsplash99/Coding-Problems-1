@@ -15,7 +15,7 @@ def bubble_sort(data): # this is bubble_sort function
                 return "Already sorted" # then this will be returned.
     return data
 
-data=[1,5,8,4,7]  # This the data which we want to sort
+data=[1,5,8,4,7]  # This is the data which we want to sort
 print(bubble_sort(data)) # Here calling and printing the bubble_sort function which is defined above and remember we are
                     # passing the data inside the function.
                 
