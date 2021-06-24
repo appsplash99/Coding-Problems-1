@@ -1,8 +1,7 @@
 def bubble_sort(data): # this is bubble_sort function
     swap=False # here we have taken a swap variable by which we will decide the array we are passing is already sorted or not.
     for i in range(len(data)-1): # here using the first for loop for the number of rounds like in the given array you can calculate the length which is 6.
-        # so the array will sort in (total length of array -1)rounds. here in this 5 round.(in each round one value will be sort and the last value
-        # automatically sort)
+        # so the array will sort in (total length of array -1)rounds. here in this 5 round.(in each round one value will be sort and the last value will automatically sort)
         for j in range(len(data)-1-i): # this is the loop in which we are comparing the actual value
             if data[j] > data [j+1]: # here using if statement to compare the value so if the current value will be greater than the next value in the array.
                 data[j], data[j+1] = data[j+1], data[j] # then we will swap these two values .
