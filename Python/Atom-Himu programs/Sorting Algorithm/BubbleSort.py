@@ -5,7 +5,7 @@ def bubble_sort(data): # this is bubble_sort function
         for j in range(len(data)-1-i): # this is the loop in which we are comparing the actual value
             if data[j] > data [j+1]: # here using if statement to compare the value so if the current value will be greater than the next value in the array.
                 data[j], data[j+1] = data[j+1], data[j] # then we will swap these two values .
-                # for example if we will see in the array you will the first value we are getting which is greater than the next value is
+                # for example if we will see in the array you can see the first value we are getting which is greater than the next value is
                 # 8 because it's next value is 4 so we will swap these two values. and this process will go on.
                 # at last you will get your desired output
                 # remember the average time complexity of bubble sort is O(n)2
